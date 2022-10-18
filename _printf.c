@@ -12,7 +12,7 @@ static int (*check_for_specifiers(const char *format))(va_list)
 	unsigned int i;
 	print_typ p[] = {
 		{"_char", printf_char},
-    };
+	};
 }
 
 /**
