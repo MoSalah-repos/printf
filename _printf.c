@@ -12,7 +12,18 @@ static int (*check_for_specifiers(const char *format))(va_list)
 	unsigned int i;
 	print_typ p[] = {
 		{"_char", printf_char},
+		{"_str",  printf_str},
+		{NULL, NULL}
 	};
+
+	for (i = 0; p[i].typ != NULL; i++)
+	{
+		if (*(p[i].typ) == *format)
+		{
+			break;
+		}
+	}
+	return (p[i].func);
 }
 
 /**
