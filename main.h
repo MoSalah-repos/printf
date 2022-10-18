@@ -26,4 +26,5 @@ int printf_char(va_list _char);
 int printf_STR(va_list _STR);
 int printf_rev(va_list _rev);
 int printf_str(va_list _str);
+int printf_per(va_list _per);
 #endif  /* MAIN_H_ */
