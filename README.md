@@ -45,6 +45,7 @@ This is a team project consists of two people to create a "_printf" function tha
 - [x] Handle conversion specifier ```S```.
 - [x] Handle conversion specifier ```p```.
 - [ ] Handle flag characters ```+```, space, and ```#``` for non-custom conversion specifiers.
+
 - [ ] Handle length modifiers ```l``` and ```h``` for non-custom conversion specifiers.
 - [ ] Handle the field width for non-custom conversion specifiers.
 - [ ] Handle the precision for non-custom conversion specifiers.
@@ -62,3 +63,7 @@ This is a team project consists of two people to create a "_printf" function tha
 * **print_hex.c:** - contains the functions ```print_hex```, which prints an unsigned int in hexidecimal form, ```print_x```, ```print_X```, and ```print_p```, which handle the conversion specifiers ```x```, ```X```, and ```p```, respectively
 * **print_unsigned_int.c:** - contains the functions ```print_u```, ```print_o```, and ```print_b```, which handle the conversion specifiers ```u```, ```o```, and ```b```, respectively
 * **print_rot13.c** - contains the function ```print_R```, which handles the conversion specifier ```R```
+
+## Authors
+[Mohamed Salah](https://github.com/MoSalah-repos) | [@MoSalah](https://www.linkedin.com/in/MoSalah-link/)
+
